@@ -1,0 +1,17 @@
+{
+  "name": "vue-poi-starter",
+  "version": "1.0.0",
+  "description": "Starter for rapid project development in Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "poi src/index.js",
+    "build": "poi build src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "poi": "^9.6.1",
+    "sass-loader": "^6.0.6"
+  }
+}
