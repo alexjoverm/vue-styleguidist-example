@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "poi src/index.js",
-    "build": "poi build src/index.js"
+    "build": "poi build src/index.js",
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "node-sass": "^4.7.2",
     "poi": "^9.6.1",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.7.0",
+    "vue-styleguidist": "^1.4.5"
   }
 }

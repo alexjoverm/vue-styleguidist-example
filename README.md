@@ -1,8 +1,17 @@
-# vue-simple-starter
+This repo shows how to use [vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist/) with a minimal setup by using just [Poi](poi.js.org).
 
-Extremely simple Vue starter that I use for my teaching examples. Its only dependency is Poi (and Sass for scss) and all its features, including using JSX.
+## Getting started
 
-It has already 2 commands:
+Clone and install deps:
 
-* `npm start`: runs the app in a dev-server with hot reloading
-* `npm build`: builds the app in production mode and create bundles
+```bash
+git clone https://github.com/alexjoverm/vue-styleguidist-example
+cd vue-styleguidist-example
+npm install
+```
+
+Run styleguidist by running:
+
+```bash
+npm run styleguide
+```

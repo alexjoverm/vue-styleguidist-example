@@ -1,7 +1,7 @@
 import Vue from "vue";
-import App from "./App";
+import AppButton from "./components/AppButton";
 
 new Vue({
   el: "#app",
-  render: h => <App />
+  render: h => h(AppButton)
 });
