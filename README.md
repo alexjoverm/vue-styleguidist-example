@@ -1,3 +1,7 @@
+# Vue Styleguidist Example
+
+![Example styleguidist gif](styleguide.gif)
+
 This repo shows how to use [vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist/) with a minimal setup by using just [Poi](poi.js.org).
 
 ## Getting started
